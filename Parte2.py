@@ -199,5 +199,5 @@ html_p = """<p style='text-align: center; font-size:%spx;'><b>%s</b></p>"""
 github_link = '''https://github.com/Leonidas-Vitor/TP1---Desenvolvimento-Front-End-com-Python'''
 st.markdown(html_p % tuple([20,f'GitHub: <a href={github_link}>Link para o repositório</a>']),unsafe_allow_html = True)
 
-streamlit_app = '''https://streamlit.io/cloud'''
+streamlit_app = '''https://tp1---desenvolvimento-front-end-com-python-kzz3cmcdtjn2th27avi.streamlit.app/'''
 st.markdown(html_p % tuple([20,f'APP: <a href={streamlit_app}>Link para o app streamlit publicado</a>']),unsafe_allow_html = True)
